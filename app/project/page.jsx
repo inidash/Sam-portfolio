@@ -52,14 +52,13 @@ const Project = () => {
               ))}
             </ul>
             <div className="border border-white/20"></div>
-            {project.stack.map(({github}, i) => (
-              <div className='rounded-full p-6 bg-white hover:bg-cyan-400 transition-all duration-500 mt-3'>
-              <Link key={i} href={github}>
-                <FaGithub className='text-black' />
+            
+              <div className='rounded-full h-[50px] cursor-pointer flex justify-center items-center  w-[50px] p-6 bg-white hover:bg-cyan-400 transition-all duration-500 mt-3'>
+              <Link  href={project.github}>
+                <FaGithub className='text-black text-2xl' />
               </Link>
             </div>
-            ))}
-            
+           
           </div>
           <div className='w-[400px] xl:w-[500px] overflow-hidden lg:h-[600px]'>
             <Swiper
@@ -85,7 +84,7 @@ const Project = () => {
                 </SwiperSlide>
               ))}
               <ProjectSlideBtn 
-                containerstyle='flex gap-2 bottom-0  absolute z-20 justify-between w-full right-0 top-[90%] lg:w-max lg:justify-none' 
+                containerstyle='flex gap-2 bottom-0  absolute z-20 justify-between w-full right-0 mb-4 lg:w-max lg:justify-none' 
                 btnStyle=' text-cyan-400 flex text-[25px] py-1 rounded-xl hover:bg-cyan-400 hover:text-primary w-[44px] h-44px] justify-center items-center transition-all duration-500'
               />
             </Swiper>

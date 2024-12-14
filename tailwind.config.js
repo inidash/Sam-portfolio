@@ -9,7 +9,7 @@ module.exports = {
   theme: {
   	extend: {
   		colors: {
-  			primary: "#1a1a22",
+  			primary: "black",
 			accent: {
 				DEFAULT: "#00ff99",
 				hover: "#00e187"

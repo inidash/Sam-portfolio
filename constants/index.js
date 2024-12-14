@@ -363,7 +363,7 @@ export const projects =[
             {name: "CSS"},
         ],
         video: "/assets/Screenshots/restaurant.mp4",
-        github: "https://github.com/inidash/restaurant"
+        github: "https://github.com/inidash/restaurant-website"
     },
     {
         num: "07",

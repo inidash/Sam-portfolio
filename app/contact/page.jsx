@@ -45,7 +45,7 @@ const Contact = () => {
           {/* form  */}
           <div className='lg-[50%] lg:justify-end mb-6'>
             <form action="" className='flex flex-col gap-8 p-10 rounded-xl bg-[#27272c]'>
-              <h3 className='text-4xl text-cyan-400 font-semibold'>Let's work together</h3>
+              <h3 className='text-4xl text-cyan-400 font-semibold'>Let&apos;s work together</h3>
               <p className="text-white/60">
                 Accept my apologies, I intend to use react email on this form but the  site has been unreachable lately. I am still working on how to receive your emails. Feel free to contact me via my email. Peace!
               </p>
